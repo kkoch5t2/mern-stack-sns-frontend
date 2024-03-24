@@ -1,0 +1,47 @@
+.followList {
+    display: flex;
+}
+
+.followListRight{
+    flex: 6;
+}
+
+.followListRightBottom {
+    display: flex;
+}
+
+.followWrraper{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.followListWrapper{
+    flex: 6;
+	padding: 0 20px;
+}
+
+.unfollowButton {
+    border: 1px solid #2c517c;
+    padding: 7px 0;
+    background-color: white;
+    border-radius: 5px;
+    color: #2c517c;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.followButton{
+    border:none;
+    padding: 7px 0;
+    background-color: #2c517c;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.profileBack{
+    text-align: center;
+}

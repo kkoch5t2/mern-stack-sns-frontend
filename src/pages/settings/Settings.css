@@ -1,0 +1,40 @@
+.inputMarginBottom{
+    margin-bottom: 15px;
+}
+
+.inputCommon{
+    width: 100%; /*親要素いっぱい広げる*/
+    padding: 10px 15px; /*ボックスを大きくする*/
+    font-size: 16px;
+    border-radius: 3px; /*ボックス角の丸み*/
+    border: 2px solid #ddd; /*枠線*/
+    box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
+}
+
+.textareaBox{
+    height: 130px;
+}
+
+.profile {
+    display: flex;
+}
+
+.profileRight{
+    flex: 6;
+}
+
+.profileRightBottom{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.changeProfile{
+    border:none;
+    padding: 7px 15px;
+    background-color: #2c517c;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}

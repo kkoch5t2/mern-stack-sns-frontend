@@ -1,0 +1,16 @@
+.profile {
+    display: flex;
+}
+
+.profileRight{
+    flex: 6;
+}
+
+.profileRightBottom {
+    display: flex;
+}
+
+.followWrraper{
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,10 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+    background-color: #f8fcff;
+}
+
+.rightWrapper{
+    padding: 20px;
+    flex: 6;
+}

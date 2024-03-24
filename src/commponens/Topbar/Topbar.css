@@ -1,0 +1,38 @@
+.topbarContainer{
+    background-color: #2c517c;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+.topbarLeft {
+    flex: 8;
+}
+
+.logo {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.topbarRight {
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 20px;
+}
+
+.btnLogout {
+    color: #2c517c;
+    background-color: white;
+    border-radius: 20px;
+    padding: 4px 15px;
+    cursor: pointer;
+}

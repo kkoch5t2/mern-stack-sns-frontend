@@ -1,0 +1,59 @@
+.box {
+    width: 100%;
+    box-shadow: 5px 7px 13px -8px #65789f;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.boxWrapper{
+    padding: 10px;
+}
+
+.btnWrapper {
+    margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.btnWrapper input {
+	/* visibility:hidden; */
+	display: none;
+}
+
+.btn {
+	display: block;
+	float: left;
+	cursor: pointer;
+	margin: 0;
+	padding: 10px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1;
+	transition: .2s;
+    width: 30%;
+}
+
+.switch-on{
+	border-radius: 0 3px 3px 0;
+	background: #2c517c;
+    border: solid #2c517c;
+	color: white;
+}
+
+.switch-off{
+    border: solid #2c517c;
+    color: #2c517c;
+	text-decoration: none;
+}
+
+.btnLeft{
+	border-radius: 3px 0 0 3px;
+}
+
+.btnRight{
+	border-radius: 0 3px 3px 0;
+}
+
+.likeWrapper{
+	padding: 0 20px;
+}

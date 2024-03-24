@@ -1,0 +1,92 @@
+.search {
+    display: flex;
+}
+
+.searchRight{
+    flex: 6;
+}
+
+.searchRightBottom {
+    display: flex;
+}
+
+.postSearch {
+    flex: 6;
+}
+
+.postSearchWrapper{
+    padding: 20px;
+}
+
+.searchContainer{
+    box-sizing: border-box;
+    position: relative;
+    border: 1px solid #999;
+    padding: 3px 10px;
+    border-radius: 20px;
+    height: 2.3em;
+    width: 265px;
+    overflow: hidden;
+}
+
+.searchContainer input[type="text"]{
+    border: none;
+    height: 2.0em;
+}
+
+.searchContainer input[type="text"]:focus {
+    outline: 0;
+}
+
+.searchContainer button[type="submit"]{
+    cursor: pointer;
+    font-family: FontAwesome;
+    border: none;
+    background: #3879D9;
+    color: #fff;
+    position: absolute;
+    width: 3.5em;
+    height: 3.0em;
+    right:0px;
+    top: -3px;
+    outline : none;
+}
+
+.pagination {
+    list-style: none;
+    height: 31.5px;
+    width: 31.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.active {
+    background-color: #1e50ff;
+    border-radius: 50%;
+    color: white;
+}
+
+.page-item {
+    list-style: none;
+    padding: 2px 12px;
+    height: 31.5px;
+    width: 31.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.paginationWrapper{
+    text-align: center;
+}
+
+.page-item-none {
+    display: none;
+}
